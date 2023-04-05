@@ -1,0 +1,33 @@
+{
+    "name": "anis/pfe",
+    
+    "autoload": {
+        "psr-4": {
+            "models\\": "models/",
+            "app\\": "app/",
+            "controller\\":"controllers/",
+            "NFTStorage\\":"NFTStorage/"
+            
+        }
+        
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "symfony/var-dumper": "^6.0",
+        "filp/whoops": "^2.14",
+        "vlucas/valitron": "^1.4",
+        "guzzlehttp/guzzle": "^7.4",
+        "amrshawky/currency": "^1.0",
+        "hexaequo/currency-converter-bundle": "^1.0"
+        
+        
+        
+       
+        
+       
+    }
+  
+ 
+    
+ 
+}
